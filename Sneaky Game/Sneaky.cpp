@@ -47,7 +47,7 @@ int main(){
                 L1.setOver(true);
                 cout<<"YOU WON\n";
             }
-            else if(L1.getPlayer().getHealth()<=0){
+            else if(!L1.getPlayer().isAlive()){
                 L1.setOver(true);
                 cout<<"YOU LOST\n";
             }
@@ -135,7 +135,7 @@ int main(){
                         L1.getMonster(i).setHealth(HP);
                     }
                 }
-                if(L1.getMonster(i).getHealth()<=0){
+                if(!L1.getMonster(i).isAlive()){
                     int n=L1.getNumberOfMonsters();
                     n--;
                     L1.setNumberOfMonsters(n);
