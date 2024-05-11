@@ -27,7 +27,7 @@
 <p>Pe urmatoarea linie se afla I=numarul de iteme iar pe urmatoarele I linii se afla datele despre iteme(valoarea si coordonatele)</p>
 <p>Pe ultima linie se afla numarul de puncte pe care trebuie sa-l obtina jucatorul pentru a castiga.</p>
 
-<h1>Schimbări partea a 2-a:1>
+<h1>Schimbări partea a 2-a:<h1>
 
 <p>Acum clasa Player mosteneste clasa Monster, in loc sa includem o instanta a lui Monster in Player.</p>
 
