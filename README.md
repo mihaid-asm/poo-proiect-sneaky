@@ -1,4 +1,4 @@
-# poo-proiect-part-2
+# poo-proiect-sneaky
 
 <p>Sneaky: The Game (2023-2024)</p>
 
