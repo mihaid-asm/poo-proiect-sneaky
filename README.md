@@ -16,7 +16,7 @@
   
 <p>Fiecare nivel are un target, fiind necesar ca jucatorul sa-l atinga pentru a castiga jocul, colectand itemele marcate cu cifre ale caror cifra reprezinta valoarea in puncte.</p>
 
-<p>Jocul are 3 nivele, la inceputul programului jucatorul avand posibilitatea sa aleaga un nivel(de la 1 la 3).</p>
+<p>Jocul are 3 niveluri, la inceputul programului jucatorul avand posibilitatea sa aleaga un nivel(de la 1 la 3).</p>
 
 <p>Datele despre un nivel sunt in fisirele de forma "Xjoc.in", unde X este 1, 2 sau 3.</p>
 
@@ -26,13 +26,3 @@
 
 <p>Pe urmatoarea linie se afla I=numarul de iteme iar pe urmatoarele I linii se afla datele despre iteme(valoarea si coordonatele)</p>
 <p>Pe ultima linie se afla numarul de puncte pe care trebuie sa-l obtina jucatorul pentru a castiga.</p>
-
-<h1>Schimbări partea a 2-a:<h1>
-
-<p>Acum clasa Player mosteneste clasa Monster, in loc sa includem o instanta a lui Monster in Player.</p>
-
-<p>Clasa Monster este abstracta, avand functia virtuala isAlive. Aceasta este folosita si in Player, avand loc polimorfism la executie.</p>
-
-<p>Avem variabila statica no_levels care memoreaza numarul de niveluri existente in joc. De asemenea, avem si un getter si un setter static pentru no_levels</p>
-
-<p>Am adaugat diferite exceptii, de exemplu pentru nivel invalid sau coordonate invalide.</p>
